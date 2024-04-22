@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.cabecalho_title{
+    padding: 10px;
+}
+
+#title{
+    font-weight: 400;
+    font-family: "Caveat", cursive;
+    font-size: 3.5rem;
+}
+#sub_title{
+    color: #494949;
+    margin-bottom: 20px;
+}
+strong{
+    font-family: "Caveat", cursive;
+    color: black;
+}
+
+.container_login{
+    width: 31.5rem;
+    text-align: center;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 80%;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 8px;
+}
+
+#button{
+    width: 8rem;
+    cursor: pointer;
+    padding: 2px;
+}
+button:hover{
+    text-decoration: underline;
+    background-color: #494949;
+    color: white;
+    border-radius: 8px;
+}
+
+#nova_senha{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nova_senha:hover{
+    text-decoration: underline;
+}

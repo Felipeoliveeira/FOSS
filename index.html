@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOSS</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <header>
-        <h1>Olá Mundo!</h1>
+    <header class="cabecalho_title">
+        <h1 id="title">Bem Vindo a <strong>FOSS</strong></h1>
     </header>
-    <section>
-        
-    </section>
+    <section class="container_login">
+        <h2 id="sub_title">Inicie sessão na <strong>FOSS</strong></h2>
+        <form action="cadastro.js" method="post" >
+            <input type="text" name="usuario" id="usuario" required placeholder="Usuário">
+            <input type="password" name="senha" id="senha" required placeholder="Senha">
+            <input type="submit" value="Entrar" id="button">
+        </form>
+        <a href="" id="nova_senha">Esqueceu a senha? <span class="material-symbols-outlined">start</span></span></a>
 </body>
 </html>
